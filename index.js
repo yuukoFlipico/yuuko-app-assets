@@ -44,4 +44,4 @@
       color: #7b2cff;
       font-size: 13px;
       font-style: italic;
-    `)}var q=async()=>{window.Webflow||=[],window.Webflow.push(async()=>{if(!window.isWebflowInitialized){window.isWebflowInitialized=!0,E();try{let t=new URLSearchParams(window.location.search),r=t.get("redirect_status")??"",e=t.get("payment_intent")??"",i=localStorage.getItem("payment_intent")??"";r==="succeeded"?e!==i?(localStorage.setItem("payment_intent",e),setTimeout(()=>{window.location.reload()},2e3)):await z():await z()}catch(t){console.error("B\u0142\u0105d podczas obs\u0142ugi Webflow:",t)}}})};q();})();
+    `)}var q=async()=>{window.Webflow||(window.Webflow=[]),window.Webflow.push(async()=>{if(!window.isWebflowInitialized){window.isWebflowInitialized=!0,E();try{let t=new URLSearchParams(window.location.search),r=t.get("redirect_status")??"",e=t.get("payment_intent")??"",i=localStorage.getItem("payment_intent")??"";r==="succeeded"?e!==i?(localStorage.setItem("payment_intent",e),setTimeout(()=>{window.location.reload()},2e3)):await z():await z()}catch(t){console.error("B\u0142\u0105d podczas obs\u0142ugi Webflow:",t)}}})};q();})();
